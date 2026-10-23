@@ -20,6 +20,11 @@ O escritório (Dias & Moura) também é fictício.
 4. Instale a skill `conferir-temas` (copie a pasta `gabarito/skills/conferir-temas` para a pasta de skills da sua
    ferramenta, ou envie o arquivo `gabarito/conferir-temas.zip` no app do Claude) e rode no caso 2, para ver o
    relatório em Word.
-5. Compare com `gabarito/caso-N/` e confira as páginas decisivas nos PDFs.
+5. Grave o que o agente gerar em `saida/caso-N/`, não dentro de `casos/`.
+6. Compare com `gabarito/caso-N/` e confira as páginas decisivas nos PDFs. Em (c) e (d) a leitura é de juízo: o
+   gabarito é conservador, e você pode discordar com a fonte na mão.
+
+Para o relatório em Word o agente usa a biblioteca `python-docx`. Se o seu computador recusar a instalação, peça ao
+agente que crie um ambiente virtual (`python3 -m venv .venv`) e instale nele.
 
 O relatório organiza a leitura. A conferência da fonte e a decisão sobre a defesa são suas.

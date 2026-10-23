@@ -113,7 +113,7 @@ def main(caso_json, logo, saida):
     p = d.add_paragraph(); p.paragraph_format.space_before = Pt(6); p.paragraph_format.space_after = Pt(2)
     run(p, "Relatório de conformidade", 20, True, VERDE)
     p = d.add_paragraph(); p.paragraph_format.space_after = Pt(10)
-    run(p, f"Temas 6 e 1234 do STF · fornecimento de {c['medicamento']}", 11, False, CINZA, italico=True); linha_fina(p, cor=COBRE, tam=8, espaco=8)
+    run(p, f"Temas 6 e 1234 do STF · {c['medicamento']}", 11, False, CINZA, italico=True); linha_fina(p, cor=COBRE, tam=8, espaco=8)
 
     # ficha do caso
     ficha = d.add_table(rows=3, cols=2); larguras(ficha, [5.0, 11.5])

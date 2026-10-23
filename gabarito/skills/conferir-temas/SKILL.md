@@ -6,7 +6,7 @@ description: Confere se o autor de uma ação de medicamento cumpriu os requisit
 # Conferir os Temas 6 e 1234
 
 Entrada: uma pasta de caso com os PDFs dos autos e, na pasta `temas/`, os arquivos `tema-6-stf.md` e `tema-1234-stf.md`.
-Saída: `relatorio.docx` na pasta do caso, feito a partir de um `caso.json`.
+Saída: `saida/caso-N/caso.json` e `saida/caso-N/relatorio.docx` (crie a pasta `saida/` ao lado de `casos/`; não grave nada dentro de `casos/`).
 
 ## Passos
 
@@ -20,11 +20,15 @@ Saída: `relatorio.docx` na pasta do caso, feito a partir de um `caso.json`.
    Em "onde", escreva o nome do arquivo e a página (por exemplo, "02-laudo-medico.pdf, p. 1"). Em "obs", uma frase com o motivo.
 4. Regras fixas:
    - Se não achar, diga "não encontrei". Nunca complete por conta própria.
-   - Negativa administrativa (a): ofício, protocolo ou resposta escrita é prova; só a frase "o pedido foi negado" na inicial é alegação.
-   - Evidência de alto nível (d): só ensaio clínico randomizado, revisão sistemática ou meta-análise contam. Citar "estudos" ou diretrizes, sem apontar o estudo, é `nao_comprovado`.
+   - Negativa administrativa (a): é prova a resposta escrita que nega (ofício, declaração, resposta da Secretaria). Protocolo de pedido sem resposta só prova que o pedido foi feito: é `nao_comprovado`. A frase "o pedido foi negado" na inicial, sem documento, também.
+   - Conitec (b): a inicial precisa tratar da não incorporação, do pedido de incorporação ou da demora. Se ela não trata, é `nao_encontrado`. Se outro documento (por exemplo o NATJus) registra um fato sobre a Conitec, como pedido em análise ou ausência de pedido, cite na observação e escreva que o usuário deve conferir.
+   - Substituição (c): só é `atendido` se o laudo explica por que cada alternativa do SUS não serve. Afirmar "não há substituto", sem explicar, ou haver alternativa apontada pelo NATJus, é `nao_comprovado`.
+   - Evidência de alto nível (d): só ensaio clínico randomizado, revisão sistemática ou meta-análise contam, e precisam estar nos autos ou ser descritos com o resultado. Citar "estudos" ou diretrizes, ou apenas nomear o ensaio no laudo, sem juntá-lo, é `nao_comprovado`.
    - Incapacidade financeira (f): com advogado particular, exige prova (renda, CadÚnico, declaração com documentos); com Defensoria Pública, é `dispensado`.
    - Competência (Tema 1234): compare o valor anual do tratamento com 210 salários mínimos. Use o valor que os autos mostram e diga que o usuário deve conferir o PMVG na lista CMED e o salário mínimo vigente. Se os autos não dizem, escreva "conferir".
-5. Rode `python3 relatorio.py caso.json logo-escritorio.png relatorio.docx` (precisa de `python-docx`: `pip install python-docx`). O `relatorio.py` e o logo vêm junto com esta skill.
+5. Gere o Word com o `relatorio.py` e o `logo-escritorio.png` que estão na pasta desta skill. Precisa da biblioteca `python-docx`. Se `python3 -c "import docx"` der erro, crie um ambiente virtual e use o Python dele:
+   `python3 -m venv .venv && .venv/bin/pip install python-docx` (no Windows, `.venv\Scripts\pip`).
+   Comando: `python3 relatorio.py saida/caso-N/caso.json logo-escritorio.png saida/caso-N/relatorio.docx`, com os caminhos completos de `relatorio.py` e do logo.
 6. Termine dizendo, em poucas linhas, o que o usuário deve conferir à mão: as páginas decisivas e qualquer PDF que não foi possível ler.
 
 Este relatório organiza a leitura. A decisão sobre a defesa é do procurador.
