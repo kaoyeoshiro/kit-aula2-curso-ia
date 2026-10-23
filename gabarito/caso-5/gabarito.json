@@ -1,0 +1,28 @@
+{
+ "processo": "0804417-39.2026.8.12.0099 (fictício)",
+ "medicamento": "Cloridrato de atomoxetina 40 mg (Atentah), para TDAH, CID F90.2",
+ "representacao": "Defensoria Pública",
+ "data_analise": "24/10/2026",
+ "resumo": "A negativa administrativa está provada por ofício do Município, com datas que não batem entre si. Faltam a discussão sobre a Conitec, a demonstração de que nenhum medicamento do SUS serve e qualquer ensaio clínico randomizado, revisão sistemática ou meta-análise: o laudo diz apenas que estudos científicos demonstram o efeito. O laudo descreve o diagnóstico e o tratamento anterior. A incapacidade financeira é dispensada porque o autor é assistido pela Defensoria Pública.",
+ "requisitos": [
+  {"id": "a", "nome": "Negativa na via administrativa", "situacao": "atendido", "onde": "05-pedido-e-negativa-administrativa.pdf, p. 1 e 2; 01-peticao-inicial.pdf, p. 1", "obs": "O Ofício nº 41/2026/SMS do Município de Santa Aurora nega o medicamento porque não está nos itens básicos da RENAME. Ressalvas: a negativa é só do Município, não do Estado; o ofício diz que o requerimento chegou em 04/04/2026, mas o requerimento juntado é de 10/05/2026, mesma data do ofício, e não tem protocolo nem carimbo de recebimento. Não houve CEJUSC."},
+  {"id": "b", "nome": "Ilegalidade da não incorporação pela Conitec, ausência de pedido ou mora", "situacao": "nao_encontrado", "onde": "Não encontrei na inicial; ver 07-nota-tecnica-natjus.pdf, p. 2", "obs": "A inicial não trata da Conitec nem dos prazos dos arts. 19-Q e 19-R da Lei 8.080/1990. Só o NATJus registra que não há pedido de avaliação da atomoxetina em tramitação na Conitec; o autor não argumenta nada a partir disso."},
+  {"id": "c", "nome": "Impossibilidade de substituição por medicamento do SUS", "situacao": "nao_comprovado", "onde": "04-laudo-defensoria.pdf, p. 1 e 2; 07-nota-tecnica-natjus.pdf, p. 2; 08-decisao-tutela.pdf, p. 1", "obs": "A médica afirma, sem explicar, que não existe medicação do SUS que substitua a atomoxetina, e no mesmo formulário marca que o medicamento está previsto em PCDT. Relata uso anterior de carbamazepina e biperideno sem melhora, mas não discute o PCDT do TDAH nem os demais medicamentos da RENAME listados pelo NATJus. A decisão registra que há vários outros medicamentos no SUS para a doença."},
+  {"id": "d", "nome": "Evidência de alto nível (ensaio randomizado, revisão sistemática ou meta-análise)", "situacao": "nao_comprovado", "onde": "04-laudo-defensoria.pdf, p. 2; 07-nota-tecnica-natjus.pdf, p. 2", "obs": "No campo próprio, a médica escreve apenas que estudos científicos têm demonstrado o efeito do medicamento, sem citar nem anexar estudo. O NATJus conclui que não foram apresentados ensaios clínicos randomizados, meta-análises ou revisões sistemáticas."},
+  {"id": "e", "nome": "Imprescindibilidade clínica, com laudo fundamentado", "situacao": "atendido", "onde": "04-laudo-defensoria.pdf, p. 2 e 3; 02-relatorio-medico.pdf, p. 1", "obs": "O laudo descreve sintomas, diagnóstico por neuropsicóloga, histórico de cerca de dois anos, tratamento anterior com carbamazepina e biperideno sem melhora e a justificativa de urgência. Ressalva: a fundamentação é sucinta e nenhum exame ou teste foi anexado, como anota o NATJus (07-nota-tecnica-natjus.pdf, p. 1)."},
+  {"id": "f", "nome": "Incapacidade financeira", "situacao": "dispensado", "onde": "06-hipossuficiencia-e-orcamentos.pdf, p. 1 a 3", "obs": "Autor assistido pela Defensoria Pública. Mesmo assim, há declaração de hipossuficiência da mãe e três contracheques, com líquidos de R$ 1.965,92, R$ 2.660,93 e R$ 1.988,14. A gratuidade foi deferida (08-decisao-tutela.pdf, p. 1)."}
+ ],
+ "competencia": {
+  "valor_anual": "R$ 1.560,00 (12 caixas de 30 cápsulas a R$ 130,00, que é também o valor da causa); pelo PMVG informado pelo NATJus com alíquota de 17%, R$ 81,58 por caixa, cerca de R$ 978,96 por ano",
+  "limite": "210 salários mínimos (conferir o valor vigente)",
+  "resultado": "conferir",
+  "nota": "Fatos dos autos: posologia de 1 cápsula ao dia (03-receita.pdf, p. 1), orçamentos de R$ 130,00 a R$ 135,97 por caixa (06-hipossuficiencia-e-orcamentos.pdf, p. 4), valor da causa de R$ 1.560,00 (01-peticao-inicial.pdf, p. 2) e preços CMED com alíquota de 17% (07-nota-tecnica-natjus.pdf, p. 2). A decisão não trata de competência; o processo seguiu na Justiça Estadual. O aluno deve conferir na lista CMED o PMVG com alíquota zero do menor preço do princípio ativo, multiplicar por 12 e comparar com 210 salários mínimos; o valor fica muito abaixo do limite, o que indica a Justiça Estadual."
+ },
+ "conferencia": [
+  "Conferir a divergência de datas entre o ofício (requerimento recebido em 04/04/2026) e o requerimento juntado (10/05/2026), que não tem protocolo.",
+  "A negativa juntada é só do Município; conferir se houve pedido ao Estado, que também é réu.",
+  "Conferir na Conitec se há pedido de avaliação da atomoxetina e, no PCDT do TDAH, o que o SUS oferece, porque o laudo marca previsão em PCDT e diz ao mesmo tempo que não há substituto.",
+  "Conferir na lista CMED o PMVG com alíquota zero e o salário mínimo vigente; os autos só trazem o preço com alíquota de 17%.",
+  "Este relatório organiza a leitura; a decisão sobre a defesa é do procurador."
+ ]
+}

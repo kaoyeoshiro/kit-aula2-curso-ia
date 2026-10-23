@@ -1,0 +1,17 @@
+{
+ "processo": "0000000-00.2025.8.12.0000 (fictício)",
+ "medicamento": "medicamento X (caso fictício)",
+ "representacao": "Advogado particular",
+ "data_analise": "23/10/2026",
+ "resumo": "Faltam a prova da negativa administrativa e a prova da incapacidade financeira. O laudo cita estudos, mas não ensaio clínico randomizado.",
+ "requisitos": [
+  {"id": "a", "nome": "Negativa na via administrativa", "situacao": "nao_comprovado", "onde": "Inicial, p. 3", "obs": "O autor alega a negativa, mas não juntou ofício, protocolo nem resposta."},
+  {"id": "b", "nome": "Ilegalidade da não incorporação pela Conitec", "situacao": "nao_encontrado", "onde": "Não encontrei", "obs": "A inicial não trata da Conitec nem dos prazos dos arts. 19-Q e 19-R."},
+  {"id": "c", "nome": "Impossibilidade de substituição por medicamento do SUS", "situacao": "atendido", "onde": "Laudo, p. 1", "obs": "O médico explica por que as alternativas do SUS não servem."},
+  {"id": "d", "nome": "Evidência de alto nível (ensaio randomizado ou revisão sistemática)", "situacao": "nao_comprovado", "onde": "Laudo, p. 2", "obs": "Cita um estudo observacional, que não basta pela tese."},
+  {"id": "e", "nome": "Imprescindibilidade clínica, com laudo fundamentado", "situacao": "atendido", "onde": "Laudo, p. 1 e 2", "obs": "Descreve os tratamentos já realizados."},
+  {"id": "f", "nome": "Incapacidade financeira", "situacao": "nao_encontrado", "onde": "Não encontrei", "obs": "Advogado particular e sem comprovante de renda nos autos."}
+ ],
+ "competencia": {"valor_anual": "R$ 148.320,00", "limite": "R$ 340.410,00", "resultado": "Justiça Estadual", "nota": "Valores ilustrativos deste caso fictício. Na prática, use o PMVG (alíquota zero) da lista CMED e o salário mínimo vigente."},
+ "conferencia": ["Conferir nos autos se há ofício ou protocolo de pedido administrativo que não tenha sido anexado à inicial.", "Conferir a lista da Conitec e as listas RENAME, RESME e REMUME na data da análise.", "Conferir o valor anual do tratamento na lista CMED e o salário mínimo vigente.", "Este relatório organiza a leitura; a decisão sobre a defesa é do procurador."]
+}

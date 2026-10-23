@@ -1,0 +1,28 @@
+{
+ "processo": "0806842-39.2026.8.12.0099 (fictício)",
+ "medicamento": "Omalizumabe 300 mg, via subcutânea, a cada 4 semanas (urticária crônica espontânea, CID-10 L50.1)",
+ "representacao": "Advogado particular",
+ "data_analise": "24/10/2026",
+ "resumo": "A autora só alega o pedido frustrado ao Município, sem ofício nem protocolo, e o NATJus registra que não há procura prévia da rede pública. O laudo invoca diretrizes e fala em evidências científicas sem citar ensaio clínico randomizado, revisão sistemática ou meta-análise, e só descreve o uso de um anti-histamínico. A inicial não trata da Conitec. A renda tem prova documental (declaração, CadÚnico e conta com tarifa social). A tutela foi indeferida e a decisão não tratou da competência.",
+ "requisitos": [
+  {"id": "a", "nome": "Negativa na via administrativa", "situacao": "nao_comprovado", "onde": "01-peticao-inicial.pdf, p. 2; 06-nota-tecnica-natjus.pdf, p. 2 e 3", "obs": "A inicial diz que o requerimento à Secretaria de Saúde do Município restou frustrado, mas não junta ofício, protocolo nem resposta. O NATJus registra que não consta nos autos atendimento ou procura prévia da rede pública local."},
+  {"id": "b", "nome": "Ilegalidade da não incorporação pela Conitec, ausência de pedido ou mora", "situacao": "nao_encontrado", "onde": "Não encontrei na inicial; 06-nota-tecnica-natjus.pdf, p. 2 e 3", "obs": "A inicial não trata da Conitec nem dos arts. 19-Q e 19-R da Lei 8.080/1990. O único dado é do NATJus: não há em tramitação solicitação de avaliação do omalizumabe para a CID da autora, que só está incorporado no CEAF para asma (J45.0 e J45.8)."},
+  {"id": "c", "nome": "Impossibilidade de substituição por medicamento do SUS", "situacao": "nao_comprovado", "onde": "03-laudo-medico.pdf, p. 2; 06-nota-tecnica-natjus.pdf, p. 1 e 2; 07-decisao-tutela.pdf, p. 1", "obs": "O laudo afirma que não há alternativa com eficácia comparável, sem dizer quais opções do SUS foram tentadas ou por que não servem. O NATJus aponta anti-histamínicos e corticosteroides da RENAME e a ciclosporina A como terceira linha; a decisão diz que não há prova do uso e da ineficácia deles."},
+  {"id": "d", "nome": "Evidência de alto nível (ensaio randomizado ou revisão sistemática)", "situacao": "nao_comprovado", "onde": "03-laudo-medico.pdf, p. 1 e 2; 06-nota-tecnica-natjus.pdf, p. 3", "obs": "O laudo cita diretrizes (EAACI/GA²LEN/EuroGuiDerm/APAAACI) e fala em comprovada eficácia e evidências científicas, mas não identifica nenhum ensaio clínico randomizado, revisão sistemática ou meta-análise. O NATJus diz que diretrizes não substituem essas evidências e que não foram apresentadas evidências robustas."},
+  {"id": "e", "nome": "Imprescindibilidade clínica, com laudo fundamentado", "situacao": "atendido", "onde": "03-laudo-medico.pdf, p. 1 e 2; 08-relatorio-medico-complementar.pdf, p. 1 e 2", "obs": "O laudo descreve o tratamento já feito (bilastina em dose quadruplicada por mais de 4 meses) e os escores UAS7 e UCT. Ponto fraco: só um fármaco anterior é descrito, e o NATJus anota que não há informação de outros tratamentos."},
+  {"id": "f", "nome": "Incapacidade financeira", "situacao": "atendido", "onde": "02-hipossuficiencia.pdf, p. 1 a 3; 01-peticao-inicial.pdf, p. 2; 07-decisao-tutela.pdf, p. 1", "obs": "Advogado particular, com declaração de hipossuficiência, CadÚnico (renda per capita de R$ 810,00, faixa total entre meio e um salário mínimo) e conta de energia com tarifa social; gratuidade deferida. Incoerências: a inicial fala em convivente e renda de até 2 salários mínimos, o CadÚnico lista só a autora e um filho, e o extrato da aposentadoria citado na inicial não foi juntado."}
+ ],
+ "competencia": {
+  "valor_anual": "Não consta nos autos. Pela conta com os preços de internet da inicial e da pesquisa juntada (R$ 5.500,00 a R$ 8.000,00 por seringa de 300 mg, 13 aplicações por ano): R$ 71.500,00 a R$ 104.000,00.",
+  "limite": "210 salários mínimos (conferir o valor vigente)",
+  "resultado": "conferir",
+  "nota": "Fato dos autos: preços de internet sem orçamento (01-peticao-inicial.pdf, p. 1; 05-pesquisa-de-preco.pdf, p. 1), valor da causa de R$ 44.000,00 e um único PMVG no NATJus (R$ 1.165,01, alíquota de 17%, apresentação de 150 mg/mL com 0,5 mL; 06-nota-tecnica-natjus.pdf, p. 3). A decisão não tratou da competência. Com o salário mínimo de R$ 1.621,00 citado na inicial, 210 salários dão R$ 340.410,00, bem acima da estimativa. O aluno deve conferir na lista CMED o PMVG de alíquota zero da apresentação que dá 300 mg e refazer o valor anual."
+ },
+ "conferencia": [
+  "A inicial pede 7 seringas na narrativa e 8 nos pedidos: conferir o quantitativo antes de calcular o valor anual.",
+  "O único PMVG dos autos é de 17% de ICMS e de uma seringa com 0,5 mL de 150 mg/mL (75 mg); conferir quantas unidades fazem 300 mg e usar a alíquota zero da CMED.",
+  "A decisão afirma que a paciente é atendida pela rede pública, mas o NATJus diz que não consta procura prévia da rede; conferir qual dado vale para o requisito (a).",
+  "O omalizumabe está no CEAF só para asma; pelo item 2.1 do Tema 1234, medicamento previsto em PCDT para outra finalidade conta como não incorporado.",
+  "A ausência de pedido de incorporação na Conitec aparece só no NATJus e a inicial não a invoca; a leitura do requisito (b) nesse ponto é do procurador."
+ ]
+}

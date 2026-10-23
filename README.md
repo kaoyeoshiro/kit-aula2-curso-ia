@@ -1,21 +1,25 @@
-# Kit da Aula 2: do chat à pasta
+# Kit da Aula 2: conferir os Temas 6 e 1234 do STF
 
-Caso fictício e escritório fictício (Dias & Moura). Nenhum dado é real.
+Seis casos de medicamento, todos fictícios (recriados a partir de situações reais, sem nenhum dado verdadeiro).
+O escritório (Dias & Moura) também é fictício.
 
 ## O que tem aqui
 
-- `caso/`: contrato, aditivo e notificação (PDF).
-- `escritorio/`: padrão de documentos, logo e `modelo.docx` já no padrão.
-- `gabarito/`: a cronologia pronta, o Word final e a skill pronta. Só abra depois de tentar a sua.
+- `casos/`: os autos de cada caso em PDF (petição inicial, laudo, receita e o que mais importa).
+- `temas/`: o texto dos Temas 6 e 1234 em Markdown, com fonte e data da consulta.
+- `escritorio/`: o logo do escritório, usado no relatório.
+- `gabarito/`: o relatório pronto de cada caso, a resposta (`gabarito.json`) e a skill `conferir-temas`.
+  Só abra depois de tentar a sua.
 
 ## Como usar na aula
 
-1. Baixe o kit (botão verde Code > Download ZIP) e abra a pasta `kit` no Claude, no ChatGPT Work ou no Codex.
-2. Prática 1: peça a cronologia do caso, com os seis elementos do pedido e a regra "se não souber, diga".
-   Salve como `cronologia.md` na pasta (copie o seu para a raiz do kit).
-3. Prática 2: peça ao agente que crie uma skill chamada `parecer-no-padrao`. Ela lê o `cronologia.md`, preenche o
-   `escritorio/modelo.docx` e salva o `cronologia.docx`. Rode a skill e confira o Word.
-4. Travou? Compare com `gabarito/skills/parecer-no-padrao`, copie para a pasta de skills da sua ferramenta e rode.
+1. Baixe o kit: botão verde **Code** > **Download ZIP**, e extraia a pasta.
+2. Abra a pasta no seu app (Claude, ChatGPT Work ou Codex).
+3. Escolha um caso e peça ao agente que confira, com os temas, se o autor cumpriu os requisitos do Tema 6 e qual é a
+   competência pelo Tema 1234. Use os seis elementos do pedido e a regra "se não souber, diga".
+4. Instale a skill `conferir-temas` (copie a pasta `gabarito/skills/conferir-temas` para a pasta de skills da sua
+   ferramenta, ou envie o arquivo `gabarito/conferir-temas.zip` no app do Claude) e rode no caso 2, para ver o
+   relatório em Word.
+5. Compare com `gabarito/caso-N/` e confira as páginas decisivas nos PDFs.
 
-O `modelo.docx` é preenchido por um script curto (`preencher.py`). Se o seu app gerar o Word direto, tudo bem:
-o importante é o resultado seguir `escritorio/padrao-do-escritorio.md`.
+O relatório organiza a leitura. A conferência da fonte e a decisão sobre a defesa são suas.

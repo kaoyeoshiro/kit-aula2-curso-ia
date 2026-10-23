@@ -1,0 +1,64 @@
+{
+ "processo": "0999904-04.2026.8.12.0999 (fictício)",
+ "medicamento": "Semaglutida (Ozempic) 1 mg, uso subcutâneo semanal",
+ "representacao": "Advogado particular",
+ "data_analise": "24/10/2026",
+ "resumo": "Caso bem instruído, mas que não cumpre todos os requisitos. A negativa administrativa e a incapacidade financeira estão provadas e o laudo é fundamentado. Faltam a discussão sobre a Conitec, a prova de que as alternativas do SUS não servem (só a insulina regular foi afastada) e a evidência de alto nível (o laudo só cita o nome de um estudo, sem juntá-lo).",
+ "requisitos": [
+  {
+   "id": "a",
+   "nome": "Negativa na via administrativa",
+   "situacao": "atendido",
+   "onde": "05-negativa-administrativa.pdf, p. 1 a 3",
+   "obs": "O Município negou a semaglutida 1 mg por ofício e por e-mail ao CEJUSC Saúde; o Estado respondeu que não pode fornecer; a certidão do CEJUSC registra que o ente não atendeu. Ressalva: a resposta do Estado fala em semaglutida 2,4 mg, embora a análise médica anexa trate do Ozempic 1 mg e a ação peça 1 mg."
+  },
+  {
+   "id": "b",
+   "nome": "Ilegalidade da não incorporação pela Conitec",
+   "situacao": "nao_encontrado",
+   "onde": "Não encontrei na inicial; 07-nota-tecnica-natjus.pdf, p. 2",
+   "obs": "A inicial não trata da Conitec nem dos arts. 19-Q e 19-R. Só o NATJus informa que não há pedido de avaliação da semaglutida em tramitação para essa doença; a autora não argumenta nada a partir disso."
+  },
+  {
+   "id": "c",
+   "nome": "Impossibilidade de substituição por medicamento do SUS",
+   "situacao": "nao_comprovado",
+   "onde": "01-peticao-inicial.pdf, p. 1; 02-laudo-medico.pdf, p. 1; 07-nota-tecnica-natjus.pdf, p. 1 e 2",
+   "obs": "A inicial diz que o tratamento com insulina foi suspenso, mas o laudo mostra que só a insulina regular foi suspensa e que a autora segue com insulina NPH e metformina. Nada se diz sobre dapagliflozina, glibenclamida e gliclazida, que o PCDT oferece segundo o NATJus."
+  },
+  {
+   "id": "d",
+   "nome": "Evidência de alto nível (ensaio randomizado ou revisão sistemática)",
+   "situacao": "nao_comprovado",
+   "onde": "02-laudo-medico.pdf, p. 1; 05-negativa-administrativa.pdf, p. 2; 07-nota-tecnica-natjus.pdf, p. 2",
+   "obs": "O laudo apenas menciona o estudo SUSTAIN-6 e diretrizes de sociedades médicas, sem juntar estudo, revisão sistemática ou meta-análise. A análise da SES examinou o estudo SELECT e concluiu que a paciente não se enquadra nele; o NATJus diz que não foram apresentadas evidências robustas."
+  },
+  {
+   "id": "e",
+   "nome": "Imprescindibilidade clínica, com laudo fundamentado",
+   "situacao": "atendido",
+   "onde": "02-laudo-medico.pdf, p. 1; 03-receitas.pdf, p. 1",
+   "obs": "O laudo descreve a história da doença, o tratamento atual, exames, IMC e a justificativa. Pontos fracos: não examina as alternativas orais do PCDT e a receita da semaglutida não tem data. O NATJus diz que não vieram exames, mas o laudo transcreve exames."
+  },
+  {
+   "id": "f",
+   "nome": "Incapacidade financeira",
+   "situacao": "atendido",
+   "onde": "01-peticao-inicial.pdf, p. 1 e 2; 04-renda-e-despesas.pdf, p. 1 e 2",
+   "obs": "Advogado particular, com declaração de pobreza, oito demonstrativos de pagamento (líquido de R$ 3.355,01 a R$ 3.711,08, bruto de R$ 5.795,39, reduzido por consignações) e comprovantes de despesas. Não há decisão sobre a gratuidade."
+  }
+ ],
+ "competencia": {
+  "valor_anual": "Não calculado nos autos. A inicial fala em R$ 1.000,00 por caneta de uso semanal e, depois, em R$ 1.000,00 mensais; o valor da causa é R$ 12.000,00. O NATJus informa PMVG de R$ 759,59 por apresentação (doses de 1 mg), com alíquota de 17%.",
+  "limite": "210 salários mínimos (conferir o valor vigente)",
+  "resultado": "Justiça Estadual: os autos foram remetidos à 1ª Vara do Juizado Especial da Saúde porque o valor da causa fica abaixo de 60 salários mínimos; nenhuma decisão examinou o Tema 1234",
+  "nota": "Fato dos autos: os preços do NATJus e da inicial, o valor da causa e as decisões de competência. O aluno deve conferir na lista CMED o PMVG com alíquota zero (o NATJus usou 17%), quantas canetas o tratamento anual exige e o salário mínimo vigente. Com qualquer cálculo razoável o valor fica muito abaixo de 210 salários mínimos."
+ },
+ "conferencia": [
+  "Conferir a divergência de dose: o Estado respondeu sobre semaglutida 2,4 mg, enquanto a receita e a ação pedem 1 mg.",
+  "Conferir na lista da Conitec se existe pedido de incorporação da semaglutida para diabetes tipo 2, e nas listas RENAME, RESME e REMUME, na data da análise.",
+  "Conferir o custo: a inicial é incoerente (R$ 1.000,00 por caneta semanal e R$ 1.000,00 mensais) e o NATJus usou PMVG com alíquota de 17%.",
+  "Conferir se há decisão posterior sobre a tutela de urgência e a gratuidade, que não constam dos autos.",
+  "Este relatório organiza a leitura; a decisão sobre a defesa é do procurador."
+ ]
+}

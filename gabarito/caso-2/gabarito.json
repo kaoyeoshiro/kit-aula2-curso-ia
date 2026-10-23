@@ -1,0 +1,28 @@
+{
+ "processo": "0805173-90.2025.8.12.0099 (fictício)",
+ "medicamento": "Austedo (deutetrabenazina) 6 mg, 9 mg e 12 mg, uso contínuo, para coreia na Doença de Huntington",
+ "representacao": "Defensoria Pública",
+ "data_analise": "24/10/2026",
+ "resumo": "A negativa administrativa está provada e a renda é dispensada pela Defensoria. Faltam os requisitos da Conitec (pedido de incorporação em análise e sem mora quando a tutela foi negada), da substituição (o NATJus aponta alternativas da RENAME e o questionário diz que elas não foram usadas) e da evidência de alto nível (o laudo só nomeia dois ensaios randomizados, sem juntá-los). O custo anual estimado nos autos passa de 210 salários mínimos, e o juízo estadual remeteu o caso à Justiça Federal.",
+ "requisitos": [
+  {"id": "a", "nome": "Negativa na via administrativa", "situacao": "atendido", "onde": "04-negativa-administrativa.pdf, p. 1 e 3; 01-peticao-inicial.pdf, p. 1", "obs": "Há declaração escrita do Município negando o fornecimento e resposta da SES ao CEJUSC Saúde concluindo que não é possível fornecer. A resposta da SES traz o número da reclamação pré-processual, diferente do número da ação judicial."},
+  {"id": "b", "nome": "Ilegalidade da não incorporação pela Conitec", "situacao": "nao_encontrado", "onde": "Não encontrei na inicial; ver 05-nota-tecnica-natjus.pdf, p. 1 (item VII) e 06-decisao-tutela.pdf, p. 1", "obs": "A inicial não trata da Conitec nem dos arts. 19-Q e 19-R. O NATJus e a decisão registram pedido de incorporação em análise, protocolado em 10/02/2025, e a decisão de 17/03/2025 afirma que não há mora. O NATJus diz no mesmo item que o fármaco não foi avaliado pela Conitec, o que convive mal com a avaliação em andamento."},
+  {"id": "c", "nome": "Impossibilidade de substituição por medicamento do SUS", "situacao": "nao_comprovado", "onde": "03-questionario-receita-e-laudo.pdf, p. 1 e 3; 05-nota-tecnica-natjus.pdf, p. 2 (item IX)", "obs": "O laudo afirma que não há substituto de eficácia comprovada no SUS, mas o NATJus lista amantadina, clorpromazina, haloperidol, olanzapina, risperidona, clozapina e quetiapina na RENAME 2024. O questionário marca que as alternativas do SUS não foram usadas, enquanto o laudo relata haloperidol, que é da RENAME, e fala em antipsicóticos atípicos sem nomear nenhum."},
+  {"id": "d", "nome": "Evidência de alto nível (ensaio randomizado ou revisão sistemática)", "situacao": "nao_comprovado", "onde": "03-questionario-receita-e-laudo.pdf, p. 3; 04-negativa-administrativa.pdf, p. 2", "obs": "O laudo nomeia os ensaios randomizados First-HD e ARC-HD e diz que há tradução juramentada, mas os estudos não estão nos autos e não há revisão sistemática nem meta-análise. A análise médica da SES registra que os ensaios exigiam eletrocardiograma sem QT prolongado, exame não apresentado, e conclui pela não comprovação."},
+  {"id": "e", "nome": "Imprescindibilidade clínica, com laudo fundamentado", "situacao": "atendido", "onde": "03-questionario-receita-e-laudo.pdf, p. 3 e 4", "obs": "O laudo descreve diagnóstico, evolução, tratamentos já feitos (haloperidol, fenobarbital, escitalopram) e resposta insatisfatória, e o exame genético confirma a doença. Ressalvas: o NATJus diz não ter visto exames complementares nem informação sobre tratamentos anteriores, e o questionário contradiz o laudo sobre o uso de alternativas do SUS."},
+  {"id": "f", "nome": "Incapacidade financeira", "situacao": "dispensado", "onde": "02-declaracao-hipossuficiencia-e-renda.pdf, p. 1 e 2; 01-peticao-inicial.pdf, p. 2", "obs": "Autor representado pela Defensoria Pública. Ainda assim há declaração de hipossuficiência e carta do INSS com aposentadoria de R$ 1.302,00 mensais (só a página 1 de 6)."}
+ ],
+ "competencia": {
+  "valor_anual": "R$ 692.999,04 (estimativa do parecer técnico, 08-parecer-custos.pdf, p. 1)",
+  "limite": "210 salários mínimos (conferir o valor vigente)",
+  "resultado": "Justiça Federal (07-decisao-incompetencia.pdf, p. 1)",
+  "nota": "Fatos dos autos: o NATJus traz o PMVG das caixas de 6, 9 e 12 mg pela alíquota de 17% de ICMS (05-nota-tecnica-natjus.pdf, p. 2); o parecer usa esses mesmos valores para 7 semanas de titulação mais 10 meses e meio de manutenção; a decisão de 16/01/2026 não faz a conta, apenas cita os preços por caixa e o uso contínuo, e remete o caso à Justiça Federal. O valor da causa (R$ 44.125,09) é o preço de uma caixa de 12 mg em farmácia e não serve para a competência. O aluno deve refazer a conta com o PMVG na alíquota zero da lista CMED, como manda o Tema 1234, e com o salário mínimo vigente."
+ },
+ "conferencia": [
+  "Refazer o custo anual com o PMVG na alíquota zero da lista CMED, porque os preços dos autos são da alíquota de 17%.",
+  "Conferir na Conitec a situação atual do pedido de incorporação da deutetrabenazina: o prazo de 180 mais 90 dias, que não tinha vencido na decisão da tutela, já pode ter vencido na data da análise.",
+  "Conferir se os artigos dos ensaios First-HD e ARC-HD foram juntados depois; nestes autos só há a menção no laudo e as referências citadas pela SES.",
+  "Registrar as incoerências entre inicial (médico da rede pública), questionário e NATJus (atendimento particular), e o pedido de tutela do item b, que fala em protetor solar e foi tratado pela juíza como erro material.",
+  "Este relatório organiza a leitura; a decisão sobre a defesa é do procurador."
+ ]
+}
