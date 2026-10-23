@@ -18,7 +18,7 @@ O escritório (Dias & Moura) também é fictício.
 3. Escolha um caso e peça ao agente que confira, com os temas, se o autor cumpriu os requisitos do Tema 6 e qual é a
    competência pelo Tema 1234. Use os seis elementos do pedido e a regra "se não souber, diga".
 4. Instale a skill `conferir-temas` (copie a pasta `gabarito/skills/conferir-temas` para a pasta de skills da sua
-   ferramenta, ou envie o arquivo `gabarito/conferir-temas.zip` no app do Claude) e rode no caso 2, para ver o
+   ferramenta, ou peça ao agente: instale a skill da pasta gabarito/skills/conferir-temas) e rode no caso 6, para ver o
    relatório em Word.
 5. Grave o que o agente gerar em `saida/caso-N/`, não dentro de `casos/`.
 6. Compare com `gabarito/caso-N/` e confira as páginas decisivas nos PDFs. Em (c) e (d) a leitura é de juízo: o
